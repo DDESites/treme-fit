@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Ilustração da área de musculação com racks, barras e halteres">
+  <title>Área de musculação (imagem ilustrativa)</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1d25"/>
+      <stop offset="100%" stop-color="#0b0c10"/>
+    </linearGradient>
+    <linearGradient id="vermelho" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff3247"/>
+      <stop offset="100%" stop-color="#c00e22"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+
+  <!-- faixa diagonal -->
+  <g transform="rotate(-12 600 260)">
+    <rect x="-100" y="250" width="1400" height="26" fill="url(#vermelho)" opacity=".8"/>
+    <rect x="-100" y="286" width="1400" height="8" fill="#f8f8fa" opacity=".5"/>
+  </g>
+
+  <!-- piso -->
+  <rect y="620" width="1200" height="180" fill="#090a0d"/>
+  <rect y="620" width="1200" height="6" fill="#23262e"/>
+
+  <!-- rack de força -->
+  <g stroke="#3a3f4b" stroke-width="16" stroke-linecap="round" fill="none">
+    <path d="M240 620V330M420 620V330"/>
+    <path d="M240 360h180M240 470h180"/>
+  </g>
+  <rect x="220" y="300" width="220" height="24" rx="8" fill="#2c303a"/>
+  <rect x="220" y="300" width="220" height="24" rx="8" fill="#e5142b" opacity=".25"/>
+
+  <!-- barra com anilhas -->
+  <g>
+    <rect x="200" y="430" width="270" height="12" rx="6" fill="#cfd2d8"/>
+    <circle cx="216" cy="436" r="40" fill="#2c303a" stroke="#e5142b" stroke-width="8"/>
+    <circle cx="454" cy="436" r="40" fill="#2c303a" stroke="#e5142b" stroke-width="8"/>
+  </g>
+
+  <!-- aluno no rack (silhueta) -->
+  <g fill="#05060a">
+    <circle cx="330" cy="360" r="30"/>
+    <path d="M306 396h48l20 108-32 5-12-58-12 58-32-5z"/>
+    <path d="M306 400l-58 40 14 24 64-34z"/>
+    <path d="M354 400l58 40-14 24-64-34z"/>
+    <path d="M310 510l-8 106h32l6-78 6 78h32l-8-106z"/>
+  </g>
+
+  <!-- banco -->
+  <g>
+    <rect x="620" y="520" width="240" height="26" rx="10" fill="#2c303a"/>
+    <rect x="640" y="546" width="16" height="76" fill="#3a3f4b"/>
+    <rect x="824" y="546" width="16" height="76" fill="#3a3f4b"/>
+    <rect x="620" y="520" width="240" height="8" rx="4" fill="#e5142b" opacity=".8"/>
+  </g>
+
+  <!-- rack de halteres -->
+  <g stroke="#3a3f4b" stroke-width="10" stroke-linecap="round">
+    <path d="M960 470h190M960 560h190"/>
+  </g>
+  <g fill="#2c303a">
+    <rect x="975" y="434" width="36" height="36" rx="9"/>
+    <rect x="1040" y="434" width="36" height="36" rx="9"/>
+    <rect x="1105" y="434" width="36" height="36" rx="9"/>
+    <rect x="975" y="524" width="36" height="36" rx="9"/>
+    <rect x="1040" y="524" width="36" height="36" rx="9"/>
+    <rect x="1105" y="524" width="36" height="36" rx="9"/>
+  </g>
+  <g fill="#e5142b">
+    <rect x="975" y="434" width="11" height="36" rx="5"/>
+    <rect x="1040" y="434" width="11" height="36" rx="5"/>
+    <rect x="1105" y="434" width="11" height="36" rx="5"/>
+  </g>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Favicon TREME FIT">
+  <rect width="64" height="64" rx="12" fill="#0d0e12"/>
+  <rect width="64" height="64" rx="12" fill="none" stroke="#2c303a" stroke-width="2"/>
+  <g transform="translate(32 32) rotate(-8) skewX(-8)">
+    <rect x="-7" y="-22" width="14" height="44" rx="3" fill="#f8f8fa" transform="rotate(45)"/>
+    <rect x="-7" y="-22" width="14" height="44" rx="3" fill="#e5142b" transform="rotate(-45)"/>
+  </g>
+</svg>

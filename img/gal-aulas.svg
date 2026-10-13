@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-label="Ilustração de aula coletiva com alunos em círculo e instrutor à frente">
+  <title>Aula coletiva (imagem ilustrativa)</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#191c24"/>
+      <stop offset="100%" stop-color="#0b0c10"/>
+    </linearGradient>
+    <linearGradient id="vermelho" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff3247"/>
+      <stop offset="100%" stop-color="#c00e22"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+
+  <g transform="rotate(-14 400 220)">
+    <rect x="-80" y="210" width="960" height="24" fill="url(#vermelho)" opacity=".8"/>
+    <rect x="-80" y="244" width="960" height="8" fill="#f8f8fa" opacity=".5"/>
+  </g>
+
+  <rect y="610" width="800" height="190" fill="#090a0d"/>
+  <rect y="610" width="800" height="6" fill="#23262e"/>
+
+  <!-- instrutor -->
+  <g fill="#05060a">
+    <circle cx="400" cy="330" r="36"/>
+    <path d="M368 374h64l26 130-40 6-18-70-18 70-40-6z"/>
+    <path d="M368 380l-64 42 16 26 70-38z"/>
+    <path d="M432 380l64 42-16 26-70-38z"/>
+    <path d="M372 510l-12 106h40l8-76 8 76h40l-12-106z"/>
+  </g>
+
+  <!-- alunos em aro -->
+  <g fill="#05060a" opacity=".9">
+    <g transform="translate(150 0)">
+      <circle cx="0" cy="420" r="26"/>
+      <path d="M-18 452h36l14 92-26 4-8-50-8 50-26-4z"/>
+      <path d="M-20 548l-8 66h26l6-40 6 40h26l-8-66z"/>
+    </g>
+    <g transform="translate(650 0)">
+      <circle cx="0" cy="420" r="26"/>
+      <path d="M-18 452h36l14 92-26 4-8-50-8 50-26-4z"/>
+      <path d="M-20 548l-8 66h26l6-40 6 40h26l-8-66z"/>
+    </g>
+    <g transform="translate(280 40)">
+      <circle cx="0" cy="420" r="24"/>
+      <path d="M-16 450h32l12 84-24 4-7-46-7 46-24-4z"/>
+      <path d="M-18 538l-7 60h24l6-36 6 36h24l-7-60z"/>
+    </g>
+    <g transform="translate(520 40)">
+      <circle cx="0" cy="420" r="24"/>
+      <path d="M-16 450h32l12 84-24 4-7-46-7 46-24-4z"/>
+      <path d="M-18 538l-7 60h24l6-36 6 36h24l-7-60z"/>
+    </g>
+  </g>
+
+  <!-- aros no chão -->
+  <g fill="none" stroke-width="12">
+    <circle cx="150" cy="640" r="44" stroke="#e5142b"/>
+    <circle cx="400" cy="668" r="44" stroke="#3a3f4b"/>
+    <circle cx="650" cy="640" r="44" stroke="#e5142b"/>
+  </g>
+</svg>

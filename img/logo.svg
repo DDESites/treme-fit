@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 120" role="img" aria-label="Logotipo TREME FIT: X branco e vermelho com letras inclinadas TREME FIT">
+  <title>TREME FIT — logotipo</title>
+  <defs>
+    <linearGradient id="vermelho" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff3247"/>
+      <stop offset="100%" stop-color="#c00e22"/>
+    </linearGradient>
+  </defs>
+
+  <!-- X da marca -->
+  <g transform="translate(62 60) rotate(-8) skewX(-8)">
+    <rect x="-12" y="-46" width="24" height="92" rx="4" fill="#f8f8fa" transform="rotate(45)"/>
+    <rect x="-12" y="-46" width="24" height="92" rx="4" fill="url(#vermelho)" transform="rotate(-45)"/>
+  </g>
+
+  <!-- letreiro inclinado -->
+  <g transform="translate(128 0) skewX(-8)">
+    <text x="6" y="60" font-family="Impact, 'Arial Black', 'Franklin Gothic Heavy', sans-serif"
+          font-size="52" fill="#f8f8fa" letter-spacing="2">TREME</text>
+    <text x="8" y="104" font-family="Impact, 'Arial Black', 'Franklin Gothic Heavy', sans-serif"
+          font-size="40" fill="#ff3247" letter-spacing="12">FIT</text>
+    <!-- faixa vermelha de apoio -->
+    <rect x="88" y="76" width="150" height="9" rx="2" fill="url(#vermelho)"/>
+    <rect x="88" y="90" width="150" height="3" rx="1" fill="#f8f8fa" opacity=".8"/>
+  </g>
+</svg>

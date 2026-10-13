@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Emblema da Academia TREME FIT: escuro com X branco e vermelho e letras TREME FIT inclinadas">
+  <title>TREME FIT — emblema</title>
+  <defs>
+    <linearGradient id="fundo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1b1e26"/>
+      <stop offset="100%" stop-color="#0b0c0f"/>
+    </linearGradient>
+    <linearGradient id="vermelho" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff3247"/>
+      <stop offset="100%" stop-color="#c00e22"/>
+    </linearGradient>
+    <pattern id="listras" width="26" height="26" patternUnits="userSpaceOnUse" patternTransform="rotate(24)">
+      <rect width="26" height="26" fill="none"/>
+      <rect width="7" height="26" fill="#ffffff" opacity=".05"/>
+    </pattern>
+    <clipPath id="selo">
+      <path d="M64 20h384c24.2 0 44 19.8 44 44v328.6c0 14.6-7.2 28.2-19.2 36.4L278.3 491a44 44 0 0 1-44.6 0L83.2 429A44 44 0 0 1 64 392.6V64c0-24.2 19.8-44 44-44z" transform="translate(-20 -10)"/>
+    </clipPath>
+  </defs>
+
+  <!-- selo / escudo -->
+  <path d="M44 10h424c24.2 0 44 19.8 44 44v338.6c0 14.6-7.2 28.2-19.2 36.4L278.3 496a44 44 0 0 1-44.6 0L19.2 429A44 44 0 0 1 0 392.6V54C0 29.8 19.8 10 44 10z" fill="url(#fundo)" stroke="#2c303a" stroke-width="6"/>
+  <g clip-path="url(#selo)">
+    <rect width="512" height="512" fill="url(#listras)"/>
+    <!-- faixa diagonal vermelha -->
+    <g transform="rotate(-18 256 256)">
+      <rect x="-80" y="196" width="672" height="26" fill="url(#vermelho)"/>
+      <rect x="-80" y="232" width="672" height="8" fill="#ffffff" opacity=".85"/>
+    </g>
+  </g>
+
+  <!-- X robusto: barra branca + barra vermelha cruzadas -->
+  <g transform="translate(256 190) rotate(-8) skewX(-8)">
+    <rect x="-30" y="-96" width="60" height="192" rx="6" fill="#f8f8fa" transform="rotate(45)"/>
+    <rect x="-30" y="-96" width="60" height="192" rx="6" fill="url(#vermelho)" transform="rotate(-45)"/>
+  </g>
+
+  <!-- letreiro -->
+  <g transform="translate(256 372) skewX(-8)" text-anchor="middle"
+     font-family="Impact, 'Arial Black', 'Franklin Gothic Heavy', sans-serif">
+    <text y="0" font-size="84" fill="#f8f8fa" letter-spacing="4">TREME</text>
+    <text y="78" font-size="72" fill="#ff3247" letter-spacing="18">FIT</text>
+  </g>
+
+  <!-- detalhe inferior -->
+  <path d="M150 470h212" stroke="#2c303a" stroke-width="4" stroke-linecap="round"/>
+</svg>

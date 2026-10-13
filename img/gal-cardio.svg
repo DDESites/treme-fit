@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-label="Ilustração da área de cardio com esteiras e bikes">
+  <title>Área de cardio (imagem ilustrativa)</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#191c24"/>
+      <stop offset="100%" stop-color="#0b0c10"/>
+    </linearGradient>
+    <linearGradient id="vermelho" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff3247"/>
+      <stop offset="100%" stop-color="#c00e22"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+
+  <g transform="rotate(-14 400 220)">
+    <rect x="-80" y="210" width="960" height="24" fill="url(#vermelho)" opacity=".8"/>
+    <rect x="-80" y="244" width="960" height="8" fill="#f8f8fa" opacity=".5"/>
+  </g>
+
+  <rect y="600" width="800" height="200" fill="#090a0d"/>
+  <rect y="600" width="800" height="6" fill="#23262e"/>
+
+  <!-- esteiras -->
+  <g>
+    <g transform="translate(120 0)">
+      <rect x="0" y="520" width="180" height="26" rx="10" fill="#2c303a" transform="skewX(-10)"/>
+      <rect x="18" y="420" width="22" height="104" rx="8" fill="#3a3f4b" transform="skewX(-10)"/>
+      <rect x="24" y="426" width="56" height="40" rx="8" fill="#0d0e12" stroke="#e5142b" stroke-width="4" transform="skewX(-10)"/>
+    </g>
+    <g transform="translate(310 0)">
+      <rect x="0" y="520" width="180" height="26" rx="10" fill="#2c303a" transform="skewX(-10)"/>
+      <rect x="18" y="420" width="22" height="104" rx="8" fill="#3a3f4b" transform="skewX(-10)"/>
+      <rect x="24" y="426" width="56" height="40" rx="8" fill="#0d0e12" stroke="#e5142b" stroke-width="4" transform="skewX(-10)"/>
+    </g>
+    <g transform="translate(500 0)">
+      <rect x="0" y="520" width="180" height="26" rx="10" fill="#2c303a" transform="skewX(-10)"/>
+      <rect x="18" y="420" width="22" height="104" rx="8" fill="#3a3f4b" transform="skewX(-10)"/>
+      <rect x="24" y="426" width="56" height="40" rx="8" fill="#0d0e12" stroke="#e5142b" stroke-width="4" transform="skewX(-10)"/>
+    </g>
+  </g>
+
+  <!-- aluno correndo (silhueta) -->
+  <g fill="#05060a">
+    <circle cx="250" cy="330" r="30"/>
+    <path d="M226 366h48l18 96-30 5-12-52-12 52-30-5z"/>
+    <path d="M226 370l-52 24 10 24 58-16z"/>
+    <path d="M274 370l50 34-14 22-54-26z"/>
+    <path d="M232 468l-30 84h34l22-56 8 56h34l-18-84z"/>
+  </g>
+
+  <!-- bike -->
+  <g stroke="#3a3f4b" stroke-width="12" fill="none" stroke-linecap="round">
+    <circle cx="640" cy="540" r="52"/>
+    <path d="M640 540l-24-90h48M616 450h60"/>
+  </g>
+</svg>
